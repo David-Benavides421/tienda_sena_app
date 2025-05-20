@@ -25,7 +25,7 @@ class _ConsultaVentasScreenState extends State<ConsultaVentasScreen> {
   Producto? _productoFiltroSeleccionado;
   List<Producto> _listaProductosParaFiltro = []; // Para el dropdown de productos
 
-  final String _baseUrl = "http://localhost/tienda_sena_api";
+  final String _baseUrl = "http://localhost/app_tienda_SENA";
   final DateFormat _dateFormat = DateFormat('yyyy-MM-dd'); // Para enviar al API
   final DateFormat _displayDateFormat = DateFormat('dd/MM/yyyy HH:mm'); // Para mostrar en UI
   final NumberFormat _currencyFormat = NumberFormat.currency(locale: 'es_CO', symbol: '\$', decimalDigits: 0);

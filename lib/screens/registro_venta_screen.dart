@@ -24,7 +24,7 @@ class _RegistroVentaScreenState extends State<RegistroVentaScreen> {
   bool _isRegisteringVenta = false;
 
   // URL base de tu API
-  final String _baseUrl = "http://localhost/tienda_sena_api";
+  final String _baseUrl = "http://localhost/app_tienda_SENA";
 
   @override
   void initState() {

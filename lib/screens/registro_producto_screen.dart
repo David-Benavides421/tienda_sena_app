@@ -19,7 +19,7 @@ class _RegistroProductoScreenState extends State<RegistroProductoScreen> {
 
   // IMPORTANTE: Esta es la URL base para tu API PHP.
   // Si estás corriendo Flutter como aplicación WEB y tu XAMPP/PHP está en la misma máquina:
-  final String _baseUrl = "http://localhost/tienda_sena_api";
+  final String _baseUrl = "http://localhost/app_tienda_SENA";
 
   Future<void> _guardarProducto() async {
     if (_formKey.currentState!.validate()) { // Valida el formulario
